@@ -28,10 +28,10 @@
       <div class="form-group">
         <label for="gender">Gender:</label>
         <select class="form-control" name="gender" required>
-          <option value="{{$student->gender}}">{{$student->gender}}</option>
-          <option value="{{$student->gender}}">Male</option>
-          <option value="{{$student->gender}}"value="female">Female</option>
-          <option value="{{$student->gender}}">Other</option>
+          <option value="">{{$student->gender}}</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="others">others</option>
         </select>
       </div>
       <div class="form-group">
