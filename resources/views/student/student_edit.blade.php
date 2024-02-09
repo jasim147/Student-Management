@@ -27,8 +27,8 @@
       </div>
       <div class="form-group">
         <label for="gender">Gender:</label>
-        <select class="form-control" name="gender" required>
-          <option value="">{{$student->gender}}</option>
+        <select class="form-control" value="{{$student->gender}}" name="gender" required>
+          <!-- <option value=""></option> -->
           <option value="male">male</option>
           <option value="female">female</option>
           <option value="others">others</option>
@@ -40,7 +40,7 @@
       </div>
       <div class="form-group">
         <label for="district">District:</label>
-        <input type="text" class="form-control" name="district" value="{{$student->name}}" required>
+        <input type="text" class="form-control" name="district" value="{{$student->district}}" required>
       </div>
       <button type="submit" class="btn btn-primary">Update</button>
     </form>
