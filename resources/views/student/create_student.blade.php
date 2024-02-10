@@ -41,7 +41,7 @@
         <label for="district">District:</label>
         <input type="text" class="form-control" name="district" placeholder="Enter your district" required>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Registration</button>
     </form>
   </div>
                 </div>
